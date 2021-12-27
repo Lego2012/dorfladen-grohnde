@@ -8,7 +8,7 @@ Die wesentlichen Dateien liegen im Ordner `./content`. Es ändern sich von Woche
 
 Über die Data Files `home_boxen.toml` und `home_texte.toml` werden die Inhalte der Startseite gesteuert. Für die Sponsoren gibt es das Data File `sponsoren.toml`.
 
-Die Templates mit der Logik befinden sich im Ordner `layouts`. Im Unterordner `layouts/_default` befindet sie das Homepage Template `baseof.html`, das die Basis für alle anderen Templates ist und durch diese ergänzt bzw. erweitert wird.
+Die Templates mit der Logik befinden sich im Ordner `layouts`. Im Unterordner `layouts/_default` befindet sich das Homepage Template `baseof.html`, das die Basis für alle anderen Templates ist und durch diese ergänzt bzw. erweitert wird.
 
 Die Templates sind an den entscheidenen Stellen dokumentiert.
 
