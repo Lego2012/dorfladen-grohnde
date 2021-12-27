@@ -1,0 +1,26 @@
+[reihe1]
+  [reihe1.links]
+  head = "Unser motiviertes Team ist für Sie da!"
+  text = "Wir erwarten Sie im Dorfladen in Grohnde. Freuen Sie sich auf unsere tollen Angebote und die schöne Atmosphäre. <strong>Übrigens:</strong> Nicht nur der Kaffee ist super, sondern auch unser Café!"
+
+  [reihe1.mitte]
+  head = "Wir feierten schon unseren<br>7. Geburtstag!"
+  text = "Im Dezember 2021 hatten wir den 7. Geburtstag und sind sehr stolz auf das Erreichte."
+
+  [reihe1.rechts]
+  head = "Kommen Sie herein und schauen Sie mal..."
+  text = "Es gibt immer etwas zu entdecken. Wir helfen Ihnen gern und zeigen Ihnen, wo Sie alles finden."
+
+[reihe2]
+  [reihe2.links]
+  head = "Das Schulgebäude in<br>Grohnde"
+  text = "Jetzt erstrahlt das Schulgebäude in neuem Glanz und wird zu einem interessanten und lebhaften Kommunikationszentrum in Grohnde. Ach ja, und so ganz nebenbei können Sie bei uns auch <a href=\"/angebote\">einkaufen</a>."
+
+  [reihe2.mitte]
+  head = "Unser Bäcker Wegener wartet auf Sie"
+  text = "Immer frisches Brot und frische Brötchen von einem der besten Bäcker? Kein Problem. Wenn Sie Frühausteher sind, bekommen Sie die <strong>Brötchen am Sonntag bereits ab 7.30 Uhr</strong>."
+
+  [reihe2.rechts]
+  head = "Gleich nebenan = Schulte Fleischerei & Catering"
+  text = "Immer frisches Fleisch und frische Wurst von einem der besten Schlachter!"
+  subtext = "Die aktuellen Angebote finden Sie immer auf der <a href=\"/angebote#schulte\">Angebotsseite</a>"

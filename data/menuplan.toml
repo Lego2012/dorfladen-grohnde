@@ -1,0 +1,32 @@
+[[menu]]
+tag   = "Montag"
+datum = "27.12.2021"
+
+[[menu.menu1]]
+name         = "Winterzeitfilet"
+beschreibung = "mit Sauce, Gemüse und Salzkartoffeln"
+preis        = "6,50"
+
+[[menu]]
+tag   = "Dienstag"
+datum = "28.12.2021"
+[[menu.menu1]]
+name         = "Schnitzel"
+beschreibung = "mit Jägersauce, Gemüse und Schwenkkartoffeln"
+preis        = "6,50"
+
+[[menu]]
+tag   = "Mittwoch"
+datum = "29.12.2021"
+[[menu.menu1]]
+name         = "Alaska Seelachsfilet, paniert"
+beschreibung = "dazu Kartoffelsalat"
+preis        = "6,50"
+
+[[menu]]
+tag   = "Donnerstag"
+datum = "30.12.2021"
+[[menu.menu1]]
+name         = "Grünkohl"
+beschreibung = "mit Kohlwurst und Salzkartoffeln"
+preis        = "6,50"

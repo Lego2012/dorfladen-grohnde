@@ -1,0 +1,14 @@
+{
+  "name": "dorfladen-grohnde-hugo",
+  "version": "1.0.0",
+  "description": "Dorfladen Grohnde mit Hugo",
+  "private": true,
+  "scripts": {
+    "start": "npm install",
+    "prod": "./prod.sh",
+    "dev": "./dev.sh"
+  },
+  "devDependencies": {
+    "html-minifier": "^4.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+{{ if site.Params.seo.webmaster_verifications.google }}
+<meta name="google-site-verification" content="{{ site.Params.seo.webmaster_verifications.google }}" />
+{{ end }}
+
+{{ if site.Params.seo.webmaster_verifications.bing }}
+<meta name="msvalidate.01" content="{{ site.Params.seo.webmaster_verifications.bing }}">
+{{ end }}
+
+{{ if site.Params.seo.webmaster_verifications.alexa }}
+<meta name="alexaVerifyID" content="{{ site.Params.seo.webmaster_verifications.alexa }}">
+{{ end }}

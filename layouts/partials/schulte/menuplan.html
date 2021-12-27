@@ -1,0 +1,86 @@
+{{ $schulte := .Page.Params.schulte }}
+
+<div class="row padding-bottom-40">
+
+    {{/* Einleitung */}}
+    <div class="text-center padding-bottom-40">
+        <p class="h2 padding-top-30">
+            Hmmmmmmm!
+        </p>
+        <p class="h2">
+            Ihr Menüplan vom {{ $schulte.menuplan }}
+        </p>
+        <a href="#angebote">Zu Schulte´s Angeboten</a>
+    </div>
+    {{/* /. Einleitung */}}
+
+    {{/* Wrapper für Menus */}}
+    <div class="col-xs-12">
+
+        <div class="clearfix">
+
+            {{/* site.Data.menuplan.menu */}}
+            {{ range site.Data.menuplan.menu }}
+
+            <div class="text-center" style="background-color: silver;">
+                <br>
+                <p class="h3">
+                    {{ .tag }}, {{ .datum }}
+                </p>
+                <br>
+
+                {{/* Menu 1 */}}
+                {{ range .menu1 }}
+                <div class="well">
+                    <p class="menuplan-ueberschrift">
+                        MENÜ 1: {{ .name }}
+                    </p>
+                    <p class="menuplan-subhead">
+                        {{ .beschreibung }}
+                    </p>
+                    <p class="h3">
+                        für {{ .preis }} €
+                    </p>
+                </div>
+                {{ end }}
+                {{/* /. Menu 1 */}}
+
+                {{/* Menu 2 */}}
+                {{ range .menu2 }}
+                <div class="well">
+                    <p class="menuplan-ueberschrift">
+                        MENÜ 2: {{ .name }}
+                    </p>
+                    <p class="menuplan-subhead">
+                        {{ .beschreibung }}
+                    </p>
+                    <p class="h3">
+                        für {{ .preis }} €
+                    </p>
+                </div>
+                {{ end }}
+                {{/* /. Menu 2 */}}
+
+            </div>
+
+            {{ end }}
+            {{/* /. site.Data.menuplan.menu */}}
+
+
+        </div>
+        {{/* /. clearfix */}}
+
+        {{/* Abspann */}}
+        <div class="download-button text-center">
+            <p>Familie Werner Schulte & Mitarbeiter</p>
+            <p>TELEFON:</p>
+            <p>Hameln: 05151 / 3665
+                <br>Hess. Oldendorf: 05152 / 527411
+                <br>Zersen: 05152 / 8748</p>
+            <a class="btn btn-primary" href="/angebote/schulte/menuplan-kw-{{ $schulte.menuplan_kw }}-21.pdf">Dieses Angebot als PDF runterladen</a>
+        </div>
+        {{/* /. Abspann */}}
+
+    </div>
+    {{/* /. Wrapper für Menus */}}
+</div>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AutoPlay>false</AutoPlay>
+            <DescSliding>false</DescSliding>
+            <GalleryMultipleSuffix>1</GalleryMultipleSuffix>
+            <GalleryName>Umbau</GalleryName>
+            <GalleryOptionID>1</GalleryOptionID>
+            <HoverStart>false</HoverStart>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEngine>jquery</ImageEngine>
+            <ImageHeight>0</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink>true</ImageShrink>
+            <ImageStretch>false</ImageStretch>
+            <ImageTemplate>5. Mac</ImageTemplate>
+            <ImageTemplateName>Native</ImageTemplateName>
+            <ImageWidth>0</ImageWidth>
+            <PublishFileName>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau-galerie/index.html</PublishFileName>
+            <PublishIndex>index.html</PublishIndex>
+            <PublishPath>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau-galerie</PublishPath>
+            <PublishPreview>false</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelPaths>false</RelPaths>
+            <ResizeSpeed>7</ResizeSpeed>
+            <RightClick>false</RightClick>
+            <SlideShow>true</SlideShow>
+            <SlideShowDelay>4</SlideShowDelay>
+            <ThumbColumns>0</ThumbColumns>
+            <ThumbFitImage>false</ThumbFitImage>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>180</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbTemplate>Mac</ThumbTemplate>
+            <ThumbTemplateName>Native</ThumbTemplateName>
+            <ThumbWidth>240</ThumbWidth>
+            <WatermarkAlign>66</WatermarkAlign>
+            <WatermarkBgColor>#ffffff</WatermarkBgColor>
+            <WatermarkColor>#514242</WatermarkColor>
+            <WatermarkOpacity>80</WatermarkOpacity>
+        </Settings>
+        <Images>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_001.jpg</url>
+                <title>umbau_001</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_002.jpg</url>
+                <title>umbau_002</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_003.jpg</url>
+                <title>umbau_003</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_004.jpg</url>
+                <title>umbau_004</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_005.jpg</url>
+                <title>umbau_005</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_006.jpg</url>
+                <title>umbau_006</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_007.jpg</url>
+                <title>umbau_007</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_008.jpg</url>
+                <title>umbau_008</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_009.jpg</url>
+                <title>umbau_009</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_010.jpg</url>
+                <title>umbau_010</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_011.jpg</url>
+                <title>umbau_011</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_012.jpg</url>
+                <title>umbau_012</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_013.jpg</url>
+                <title>umbau_013</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_014.jpg</url>
+                <title>umbau_014</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_015.jpg</url>
+                <title>umbau_015</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_016.jpg</url>
+                <title>umbau_016</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_017.jpg</url>
+                <title>umbau_017</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_018.jpg</url>
+                <title>umbau_018</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_019.jpg</url>
+                <title>umbau_019</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_020.jpg</url>
+                <title>umbau_020</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_021.jpg</url>
+                <title>umbau_021</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_022.jpg</url>
+                <title>umbau_022</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_023.jpg</url>
+                <title>umbau_023</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_024.jpg</url>
+                <title>umbau_024</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_025.jpg</url>
+                <title>umbau_025</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_026.jpg</url>
+                <title>umbau_026</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_027.jpg</url>
+                <title>umbau_027</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_028.jpg</url>
+                <title>umbau_028</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_029.jpg</url>
+                <title>umbau_029</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_030.jpg</url>
+                <title>umbau_030</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_031.jpg</url>
+                <title>umbau_031</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_032.jpg</url>
+                <title>umbau_032</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_033.jpg</url>
+                <title>umbau_033</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_034.jpg</url>
+                <title>umbau_034</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_035.jpg</url>
+                <title>umbau_035</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_036.jpg</url>
+                <title>umbau_036</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_037.jpg</url>
+                <title>umbau_037</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_038.jpg</url>
+                <title>umbau_038</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_039.jpg</url>
+                <title>umbau_039</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_040.jpg</url>
+                <title>umbau_040</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_041.jpg</url>
+                <title>umbau_041</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_042.jpg</url>
+                <title>umbau_042</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_043.jpg</url>
+                <title>umbau_043</title>
+            </Image>
+            <Image>
+                <url>/Users/leo/Sites/_WWW/dorfladen-grohnde-hugo (Git)/static/umbau/umbau_044.jpg</url>
+                <title>umbau_044</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

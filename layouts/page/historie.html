@@ -1,0 +1,45 @@
+{{ define "title" }}
+{{ .Title }} &ndash; {{ site.Title }}
+{{ end }}
+
+
+{{ define "main" }}
+
+{{ partial "secondary-banner" . }}
+
+<section class="content">
+    <div class="container">
+        <div class="inner-page historie">
+            <div class="find_team clearfix">
+                <div class="row">
+                    <div class="col-lg-12 padding-left-none padding-right-none">
+                        <img src="/images/schule/{{ .Page.Params.image }}" alt="Bild der alten Schule">
+                        <br>
+                        <br>
+
+                        {{ .Content }}
+
+                        <span id="bilder"></span>
+                        <a href="/umbau-galerie/index.html" class="underline">
+                            <p>Bilder vom Umbau</p>
+                        </a>
+                        <a href="/umbau-2014-galerie/index.html" class="underline">
+                            <p>Noch mehr Bilder vom Umbau</p>
+                        </a>
+                        <a href="/eroeffnung-galerie/index.html" class="underline">
+                            <p>Bilder der Eröffnung</p>
+                        </a>
+                        <a href="/weihnachtsmarkt-2015-galerie/index.html" class="underline">
+                            <p>Bilder des Weihnachtsmarktes 2015</p>
+                        </a>
+                    </div>
+
+                    <div class="padding-bottom-40 clearfix"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,94 @@
+<!-- Section Content -->
+<section class="content">
+    <div class="container">
+        <div class="inner-page">
+            <div class="col-md-12 padding-none">
+
+                <!-- Öffnungszeiten -->
+                <div class="row">
+                    {{ partial "page/oeffnungszeiten" . }}
+                </div>
+
+                <!-- Trennlinie -->
+                <hr>
+
+                <!-- Map -->
+                <div class="find_map row clearfix">
+                    <h2 class="margin-bottom-25 margin-top-none">Hier finden Sie uns</h2>
+                    <div class="map margin-vertical-30">
+                        <iframe style="height: 490px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1535.176973878693!2d9.417845907942999!3d52.01518294480115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ba9291f23b430f%3A0xb71e9e6296c9c221!2sPatweg+29%2C+31860+Emmerthal!5e1!3m2!1sde!2sde!4v1538060404823" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="row contacts margin-top-25">
+
+                    <!-- Linke Spalte -->
+                    <div class="col-sm-7 left-information">
+                        <div class="contact_information information_head clearfix">
+                            <h3 class="margin-bottom-25 margin-top-none">Kontaktinformationen</h3>
+
+                            <!-- Adresse -->
+                            <div class="address clearfix margin-right-25 padding-bottom-40">
+                                <div class="icon_address">
+                                    <p><i class="fa fa-map-marker"></i><strong>Adresse:</strong></p>
+                                </div>
+
+                                <div class="contact_address">
+                                    <p class="margin-bottom-none">Dorfladen Grohnde<br>
+                                        Patweg 29 <br>
+                                        31860 Emmerthal-Grohnde</p>
+                                </div>
+                            </div>
+
+                            <div class="address clearfix address_details margin-right-25 padding-bottom-40">
+                                <ul class="margin-bottom-none">
+                                    <li class="padding-bottom-none"><i class="fa fa-laptop"></i><strong>Web:</strong> <a href="https://dorfladen-in-grohnde.de/">www.dorfladen-in-grohnde.de</a></li>
+                                    <li class="padding-bottom-none"><i class="fa fa-envelope"></i><strong>Kontakt:</strong> 05155 2819310</li>
+                                    <li class="padding-bottom-none"><i class="fa fa-envelope"></i><strong>Fax:</strong> 05155 2819312</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Rechte Spalte -->
+                    <div class="col-sm-5">
+                        <div class="contact_information contact-formular information_head clearfix">
+                            <h3 class="margin-bottom-25 margin-top-none">Kontaktformular</h3>
+                            <div class="address clearfix address_details margin-right-25 padding-bottom-40">
+
+                                <form action="https://formspree.io/f/maylzdrd" method="POST">
+                                    <div class="row">
+                                        <input type="text" name="name" placeholder="Ihr Vorname und Name">
+                                    </div>
+                                    <div class="row">
+                                        <input type="email" name="email" placeholder="Ihre Emailadresse eingeben">
+                                    </div>
+                                    <div class="row">
+                                        <textarea name="message" placeholder="Ihre Nachricht für uns"></textarea>
+                                    </div>
+                                    <button type="submit">Abschicken</button>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div style="max-width: 100%;" class="row well">
+                        {{ range $aufruf := site.Data.home_texte.kontakt }}
+                        <p class="unterstuetzung">{{ . | safeHTML }}</p>
+                        <br>
+                        {{ end }}
+
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+
+            </div>
+        </div>
+    </div>
+</section>

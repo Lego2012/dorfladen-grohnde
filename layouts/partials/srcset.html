@@ -1,0 +1,15 @@
+{{ if .Page.Params.pageImage.src }}
+
+{{ $imageurl := site.Data.srcset.imageUrl }}
+{{ $pageimage := .Page.Params.pageImage }}
+{{ $breakpoint := site.Data.srcset.breakpoint }}
+
+<picture>
+    {{ range $item := $breakpoint }}
+    <source media="({{ $item.width }}: {{ $item.media }}em)" srcset="{{ $imageurl }}/{{ $pageimage.src }}{{ $item.suffix }}.{{ $pageimage.ext }} 1x, {{ $imageurl }}/{{ $pageimage.src }}{{ $item.suffix2 }}.{{ $pageimage.ext }} 2x">
+    {{ end }}
+
+    <img src="{{ $imageurl }}/{{ $pageimage.src }}_-small.{{ $pageimage.ext }}" alt="{{ $pageimage.alt }}">
+</picture>
+<hr>
+{{ end }}

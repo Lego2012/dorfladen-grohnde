@@ -1,0 +1,78 @@
+{{ $dorfladen := .Page.Params.dorfladen }}
+
+<!-- Section Content -->
+<section class="content">
+    <div class="container">
+        <div class="inner-page">
+            <div class="find_team clearfix">
+                <div class="row">
+
+                    <!-- Angebote Dorfladen -->
+                    <div class="col-xs-12">
+
+                        <!-- Hinweis Angebote Schulte -->
+                        <div class="well">
+                            <h2 style="text-align: center;"><strong>Auch 2021 immer wieder neu: </strong>
+                                <br><br>
+
+                                <a href="#angebote">Angebote</a> und <a href="#menu">Menüplan</a> der Fleischerei Schulte
+                                <br><br>
+                        </div>
+
+                        <!-- Abfrage für Überschrift, ob Angebote vorhanden sind -->
+                        {{ if eq $dorfladen.vorhanden "ja" }}
+                        <h2 class="well" style="text-align: center;">Die neuen Angebote des Dorfladens für Sie</h2>
+                        {{ else }}
+                        <h2 class="well" style="text-align: center;">Die neuen Angebote des Dorfladens finden Sie hier in Kürze!</h2>
+                        {{ end }}
+
+                        <!-- Abfrage für Dorfladen-Angebote, ob sie vorhanden sind -->
+                        {{ if eq $dorfladen.vorhanden "ja" }}
+
+                        <img class="img-responsive bilder-schulte" src="/angebote/dorfladen/dorfladen-grohnde_{{ $dorfladen.kw }}_21-1.jpg" alt="Angebote Dorfladen in Grohnde">
+                        <br>
+                        <img class="img-responsive bilder-schulte" src="/angebote/dorfladen/dorfladen-grohnde_{{ $dorfladen.kw }}_21-2.jpg" alt="Angebote Dorfladen in Grohnde">
+                        <br>
+                        <img class="img-responsive bilder-schulte" src="/angebote/dorfladen/dorfladen-grohnde_{{ $dorfladen.kw }}_21-3.jpg" alt="Angebote Dorfladen in Grohnde">
+                        <br>
+                        <img id="seite-vier" class="img-responsive bilder-schulte" src="/angebote/dorfladen/dorfladen-grohnde_{{ $dorfladen.kw }}_21-4.jpg" alt="Angebote Dorfladen in Grohnde">
+                        <div id="schulte" class="text-center download-button">
+                            <a href="/angebote/dorfladen/dorfladen-grohnde_{{ $dorfladen.kw }}_21.pdf">
+                                <div class="btn btn-primary">Dieses Angebot als PDF-Datei runterladen</div>
+                            </a>
+                        </div>
+                        {{ end }}
+
+                        <br>
+                        <hr>
+                        <br>
+
+                    </div>
+
+                    <!-- Schulte Angebote Partial -->
+                    <div id="schulte" class="row">
+
+                        <div id="angebote" class="col-xs-12">
+                            <br><br>
+                            <br><br>
+                            {{ partial "schulte/angebote" . }}
+                        </div>
+
+                        <hr>
+
+                        <!-- Schulte Menuplan Partial -->
+                        <div id="menu" class="col-xs-12">
+                            <br><br>
+                            <br><br>
+                            {{ partial "schulte/menuplan" . }}
+                        </div>
+
+                    </div>
+
+                    <div class="padding-bottom-40 clearfix"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,63 @@
+<div class="row parallax_parent design_2 margin-bottom-40 margin-top-30">
+    <div class="parallax_scroll clearfix" data-velocity="-.5" data-offset="-200">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-left-none xs-margin-bottom-none xs-padding-top-30 scroll_effect bounceInLeft">
+                        <h2>Unsere Öffnungszeiten:</h2>
+                    </div>
+
+                    <br>
+                    <br>
+
+                    {{ $offen := site.Params.oeffnung }}
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding-left-none xs-margin-bottom-none xs-padding-top-30 scroll_effect bounceInLeft">
+                        <p>
+                            <strong>Montag</strong><br>
+                            {{ $offen.mo.vorm }}<br>
+                            {{ $offen.mo.nachm }}
+                        </p>
+                        <p>
+                            <strong>Dienstag</strong><br>
+                            {{ $offen.di.vorm }}<br>
+                            {{ $offen.di.nachm }}
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding-left-none xs-margin-bottom-none xs-padding-top-30 scroll_effect bounceInLeft">
+                        <p>
+                            <strong>Mittwoch</strong><br>
+                            {{ $offen.mi.vorm }}
+                        </p>
+                        <p>
+                            <strong>Donnerstag</strong><br>
+                            {{ $offen.do.vorm }}<br>
+                            {{ $offen.do.nachm }}
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding-left-none xs-margin-bottom-none xs-padding-top-30 scroll_effect bounceInLeft">
+                        <p>
+                            <strong>Freitag</strong><br>
+                            {{ $offen.fr.vorm }}<br>
+                            {{ $offen.fr.nachm }}
+                        </p>
+                        <p>
+                            <strong>Samstag</strong><br>
+                            {{ $offen.sa.vorm }}
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding-left-none xs-margin-bottom-none xs-padding-top-30 scroll_effect bounceInLeft">
+                        <p>
+                            <strong>Sonntag</strong><br>
+                            {{ $offen.so.vorm | safeHTML }}
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

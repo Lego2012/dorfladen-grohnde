@@ -1,0 +1,24 @@
+/* TEAM */
+	Web Designer: Leo Merkel
+	Author:
+	Kontakt: info@dorfladen-in-grohnde.de
+	Twitter:
+	Facebook:
+	Skype:
+	Instagram:
+	Dribble:
+	Disqus:
+	Site: https://dorfladen-in-grohnde.de
+	From:
+
+/* THANKS */
+	Hubert Hennig (Er hat den Dorfladen möglich gemacht)
+	Christina Opitz (Er hat den Dorfladen möglich gemacht)
+	 (Er hat den Dorfladen möglich gemacht)
+
+/* SITE */
+	Last update: 2017-06-15
+	Language: German
+	Software: git, Sublime Text 3, Gulp.js, npm
+	Standards: HTML5, CSS3, Jekyll, JavaScript
+	Hosted on: Strato

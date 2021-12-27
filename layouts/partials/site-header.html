@@ -1,0 +1,14 @@
+<header>
+    <p class="sitename"><a href="/">{{ site.Title }}</a>{{ if eq (getenv "HUGO_ENV") "stage" }} in der Stage-Umgebung{{ else if eq (getenv "HUGO_ENV") "development" }} in der Development-Umgebung{{ end }}</p>
+</header>
+
+<nav id="hauptmenue">
+    {{ $currentPage := . }}
+    <ul>
+        {{ range site.Menus.main }}
+        <li{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} class="active" {{end}}>
+            <a href="{{ .URL | absURL }}">{{ .Pre }} {{ .Name }}</a>
+            </li>
+            {{ end }}
+    </ul>
+</nav>

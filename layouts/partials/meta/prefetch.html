@@ -1,0 +1,15 @@
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+{{ if not .IsHome }}
+<link rel="prerender" href="{{ site.BaseURL }}">
+{{ end }}
+
+{{ if .IsPage }}
+{{ if .NextInSection }}
+<link rel="prefetch" href="{{ .NextInSection.Permalink }}">
+{{ end }}
+
+{{ if .PrevInSection }}
+<link rel="prefetch" href="{{ .PrevInSection.Permalink }}">
+{{ end }}
+{{ end }}

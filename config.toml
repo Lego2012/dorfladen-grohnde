@@ -1,0 +1,78 @@
+baseurl             = ""
+languageCode        = "de-DE"
+title               = "Dorfladen in Grohnde - das ist mein DinG"
+pluralizeListTitles = false
+disableFastRender   = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority   = 0.5
+
+
+[params]
+  url              = "https://dorfladen-in-grohnde.de"
+  headerImageUrl   = "/images/"
+  logo             = "dorfladen.png"
+  author           = "Leo Merkel"
+  env              = "production"
+
+  [params.oeffnung]
+    [params.oeffnung.mo]
+      vorm  = "6.30 - 13.00 Uhr"
+      nachm = "15.00 - 18.00 Uhr"
+    [params.oeffnung.di]
+      vorm  = "6.30 - 13.00 Uhr"
+      nachm = "15.00 - 18.00 Uhr"
+    [params.oeffnung.mi]
+      vorm = "6.30 - 13.00 Uhr"
+    [params.oeffnung.do]
+      vorm  = "6.30 - 13.00 Uhr"
+      nachm = "15.00 - 18.00 Uhr"
+    [params.oeffnung.fr]
+      vorm  = "6.30 - 13.00 Uhr"
+      nachm = "15.00 - 18.00 Uhr"
+    [params.oeffnung.sa]
+      vorm = "6.30 - 13.00 Uhr"
+    [params.oeffnung.so]
+      vorm = "7.30 - 10.00 Uhr"
+
+  [params.owner]
+    firma          = "Dorfladen in Grohnde"
+    strasse        = "Patweg"
+    nummer         = 29
+    plz            = 31860
+    ort            = "Emmerthal-Grohnde"
+    fax            = "05155 2819312"
+    telefon        = "05155 2819310"
+    email          = "info@dorfladen-in-grohnde.de"
+    emailEncrypted = "&#105;&#110;&#102;&#111;&#064;&#100;&#111;&#114;&#102;&#108;&#097;&#100;&#101;&#110;&#045;&#105;&#110;&#045;&#103;&#114;&#111;&#104;&#110;&#100;&#101;&#046;&#100;&#101;"
+    homepageTitle  = "Dorfladen in Grohnde - das ist mein DinG"
+
+  [params.seo]
+    description = "Im Dorfladen in Grohnde können Sie einkaufen, Leute treffen, Brötchen holen, Kaffee trinken, Mittagessen"
+    keywords    = "Dorfladen,Grohnde,Einkaufen,Leute treffen"
+
+      [params.seo.webmaster_verifications]
+        google = "google-verfication"
+
+  [params.social]
+    googleplus = ""
+    twitter    = ""
+
+  [params.geo]
+    latitude  = 52.015165
+    longitude = 9.415936
+
+[menu]
+  [[menu.main]]
+    name   = "Impressum & Datenschutz"
+    pre    = ""
+    weight = 10
+    url    = "/impressum/"
+  [[menu.main]]
+    name       = "Kontakt"
+    pre        = ""
+    weight     = 15
+    identifier = "kontakt"
+    url        = "/kontakt/"

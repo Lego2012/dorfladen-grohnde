@@ -1,0 +1,80 @@
+{{ define "title" }}
+{{ .Title }} &ndash; {{ site.Title }}
+{{ end }}
+
+
+{{ define "main" }}
+
+<!-- Banner Partial -->
+{{ partial "page/banner" . }}
+
+<!-- Section Message Wrap -->
+<section class="message-wrap">
+    <div class="container">
+        <div class="row">
+            <h2 class="col-lg-9 col-md-8 col-sm-12 col-xs-12 xs-padding-left-15">
+                Entdecken Sie den Dorfladen in
+                <span class="alternate-font">
+                    Grohnde
+                </span>
+            </h2>
+
+            <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 xs-padding-right-15">
+                <a href="/angebote" class="default-btn pull-right action_button lg-button">
+                    Unsere Angebote
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="message-shadow"></div>
+</section>
+
+<!-- Section Content -->
+<section class="content">
+    <div class="container">
+        <div class="inner-page homepage margin-bottom-none">
+            <section class="car-block-wrap padding-bottom-40">
+                <div class="container">
+
+                    <!-- Boxen Reihe 1 -->
+                    {{ partial "page/start-box-reihe1" . }}
+
+                    <!-- Aufruf -->
+                    <div class="row aufruf">
+                        {{ range $text := site.Data.home_texte.startseite }}
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 margin-bottom-none christmas">
+                            <div class="panel panel-default">
+                                <div class="panel-body text-center">
+                                    <p>
+                                        {{ . | safeHTML }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="car-block-wrap padding-bottom-40">
+                <div class="container">
+
+                    <!-- Boxen Reihe 2 -->
+                    {{ partial "page/start-box-reihe2" . }}
+
+                </div>
+            </section>
+
+            <!-- Öffnunszeiten -->
+            {{ partial "page/oeffnungszeiten" . }}
+
+
+        </div>
+    </div>
+</section>
+
+<!-- Google Map -->
+<iframe style="height: 490px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1535.176973878693!2d9.417845907942999!3d52.01518294480115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ba9291f23b430f%3A0xb71e9e6296c9c221!2sPatweg+29%2C+31860+Emmerthal!5e1!3m2!1sde!2sde!4v1538060404823" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+{{ end }}

@@ -1,0 +1,34 @@
+<footer class="design_2">
+    <div class="container">
+        <div class="row">
+
+            <!-- Angebote abonnieren -->
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 padding-left-none md-padding-left-none sm-padding-left-15 xs-padding-left-15">
+                <h4>Angebote automatisch schicken</h4>
+                <form action="//flipmail.co/api/omaERGXUIpwngEc2YRqz" method="POST">
+                    <input type="text" name="name" placeholder="Ihre Emailadresse eingeben" />
+                    <input type="submit" value="Abschicken">
+                    <input type="hidden" name="_after" value="{{ "/danke/" }}" />
+                </form>
+            </div>
+
+            <!-- Logo -->
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <img src="/images/Logos/dorfladen-320x240.png" alt="Dorfladen in Grohnde">
+            </div>
+
+            <!-- Kontakt -->
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 padding-right-none md-padding-right-none sm-padding-right-15 xs-padding-right-15">
+                <h4>Kontakt zu uns</h4>
+
+                {{ $owner := site.Params.owner }}
+                <div class="footer-contact">
+                    <ul>
+                        <li><i class="fa fa-map-marker"></i> <strong>Adresse:</strong> {{ $owner.strasse }} {{ $owner.nummer }}, {{ $owner.plz }} {{ $owner.ort }}</li>
+                        <li><i class="fa fa-envelope-o"></i> <strong>Email über das Kontaktformular:</strong><a href="/kontakt/">Email an den Dorfladen</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

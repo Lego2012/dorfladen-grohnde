@@ -1,0 +1,9 @@
+User-agent: *
+# robotstxt.org - if ENV production variable is false robots will be disallowed.
+{{ if or (eq (getenv "HUGO_ENV") "production") (eq (getenv "HUGO_ENV") "stage") }}
+  Disallow:
+{{ else }}
+  Disallow: /
+{{ end }}
+
+Sitemap: {{ site.BaseURL }}sitemap.xml

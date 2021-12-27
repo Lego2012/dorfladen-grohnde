@@ -1,0 +1,51 @@
+abspann = "Wir wünschen Ihnen eine schöne Woche"
+
+feiertage = ""
+
+[text]
+headline = ""
+subline1 = ""
+subline2 = ""
+week     = ""
+
+[[angebote]]
+name         = ""
+beschreibung = ""
+preis        = ""
+gewicht      = 100
+
+[[angebote]]
+name         = ""
+beschreibung = ""
+preis        = ""
+gewicht      = 100
+
+[[angebote]]
+name         = ""
+beschreibung = ""
+preis        = ""
+gewicht      = 100
+
+[[angebote]]
+name         = ""
+beschreibung = ""
+preis        = ""
+gewicht      = 100
+
+[[angebote]]
+name         = ""
+beschreibung = ""
+preis        = ""
+gewicht      = 100
+
+[kaese]
+name  = ""
+fett  = 48
+preis = ""
+
+[tuete]
+titel   = "Schulte's Spartüte (immer ab mittwochs)"
+name1   = ""
+name2   = ""
+einheit = "Tüte"
+preis   = "4,50"

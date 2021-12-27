@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}" prefix="og: http://ogp.me/ns#">
+
+{{ partial "default/head" . }}
+
+<body class="{{ if .IsHome }}home{{ else }}page{{ end }}{{ with .Params.bodyclass }} {{ . }}{{ end }}">
+
+    {{ partial "default/header" . }}
+
+    <div class="clearfix"></div>
+
+    {{ block "main" . }}
+    <!-- Here's the individual main content from your pages -->
+    {{ end }}
+
+    {{ partial "default/footer" . }}
+
+    <div class="clearfix"></div>
+
+    <!-- Copyright -->
+    <section class="copyright-wrap padding-bottom-10">
+        <div class="container">
+            <div class="row">
+                <div class="unterstuetzung col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <!-- Siehe https://gohugo.io/functions/now/ -->
+                    <p>Copyright &copy; 2014-{{ now.Format "2006"}} Dorfladen Grohnde. Alle Rechte vorbehalten.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to top -->
+    <div class="back_to_top"> <img src="/images/arrow-up.png" alt="scroll up" /> </div>
+
+    <!-- Scripts -->
+    {{ block "addscripts" . }}
+    <!-- for adding additional scripts based on page template -->
+    {{ partial "scripts" . }}
+    {{ end }}
+
+</body>
+
+</html>

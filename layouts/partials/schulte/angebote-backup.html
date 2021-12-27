@@ -1,0 +1,127 @@
+{{ $schulte := .Page.Params.schulte }}
+{{ $text := site.Data.angebote.text }}
+
+<div class="row padding-bottom-40">
+
+    <!-- Einleitung -->
+    <div class="text-center padding-bottom-40">
+        <img src="/downloads/schulte-angebote.jpg" alt="Schulte Fleischerei und Catering">
+
+        <br>
+        <br>
+
+        <p class="h2 abstand-oben">
+            {{ $text.headline }}
+        </p>
+
+        <br>
+
+        {{ with $text.subline1 }}
+        <p class="h3">
+            {{ . }}
+        </p>
+        {{ end }}
+
+        {{ with $text.subline2 }}
+        <p class="h3">
+            {{ . }}
+        </p>
+        {{ end }}
+
+        <p class="text-center h2 padding-top-10">
+            {{ $text.week }} {{ $schulte.angebot }}
+        </p>
+
+        <a href="#menu">Zu Schulte´s Menüplan</a>
+    </div>
+
+    <!-- Variable Angebote -->
+    {{ $angebote := site.Data.angebote.angebote }}
+    {{ range $angebote }}
+    <div class="clearfix well">
+        <div>
+            <div class="col-xs-6">
+                <p class="angebot-ueberschrift">
+                    {{ .name }}
+                </p>
+                <p class="angebot-subhead">
+                    {{ .beschreibung }}
+                </p>
+            </div>
+
+            <div class="col-xs-4">
+                <p class="angebot-preis">
+                    {{ if eq .gewicht 1 }}{{ .gewicht }}kg{{ else if eq .gewicht "Stück" }}{{ .gewicht }}{{ else }}{{ .gewicht }}g{{ end }} = {{ .preis }} €
+                </p>
+            </div>
+
+        </div>
+    </div>
+    {{ end }}
+
+    <!-- Variable Käse -->
+    {{ $kaese := site.Data.angebote.kaese }}
+    {{ if $kaese.name }}
+    <div class="clearfix well">
+        <div>
+            <div class="col-xs-6">
+                <p class="angebot-ueberschrift">
+                    Käse der Woche: {{ $kaese.name }}
+                </p>
+                {{ with $kaese.fett }}
+                <p class="angebot-subhead">
+                    {{ $kaese.fett }}% Fett i.Tr.
+                </p>
+                {{ end }}
+            </div>
+            <div class="col-xs-4">
+                <p class="angebot-preis">100g = {{ $kaese.preis }} €</p>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+
+    <!-- Variable Mittwochstüte -->
+    {{ $tuete := site.Data.angebote.tuete }}
+    {{ if $tuete.name1 }}
+    <div class="clearfix well">
+        <div>
+            <div class="col-xs-6">
+                <p class="angebot-ueberschrift">
+                    {{ $tuete.titel }}:
+                </p>
+                <p class="angebot-subhead">
+                    {{ $tuete.name1 }}
+                </p>
+                <p class="angebot-subhead">
+                    {{ $tuete.name2 }}
+                </p>
+            </div>
+
+            <div class="col-xs-4">
+                <p class="angebot-preis-tuete">
+                    Tüte = 4,00 €
+                </p>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+
+    <!--<div class="clearfix well">
+        <div class="col-xs-12 text-center">
+            <p class="h2">15.12.2018</p>
+            <p class="h2"><strong>Zerser Weihnachtsmarkt</strong> ab <strong>14:00</strong> Uhr</p>
+            <p class="h3">und <strong>abends Weihnachtsdisco</strong> mit »Rock Circus«</p>
+        </div>
+    </div>-->
+
+    <!-- Abspann -->
+    <div class="well download-button text-center">
+        <p>Wir wünschen Ihnen eine schöne Woche</p>
+        <p>Familie Werner Schulte & Mitarbeiter</p>
+        <a href="http://www.schulte-schmeckt.de">www.schulte-schmeckt.de</a>
+        <p>TEL.: 05152 / 8748 in Zersen</p>
+        <a class="btn btn-primary" href="/angebote/schulte/angebot-kw-{{ $schulte.angebot_kw }}-21.pdf">Dieses Angebot als PDF runterladen</a>
+    </div>
+
+</div>

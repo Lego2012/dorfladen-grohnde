@@ -1,0 +1,23 @@
+{{ define "title" }}
+{{ .Title }} &ndash; {{ site.Title }}
+{{ end }}
+
+
+{{ define "main" }}
+
+{{ partial "secondary-banner" . }}
+
+<section class="content">
+    <div class="container">
+        <div class="inner-page">
+            <div class="col-md-12 padding-none">
+                <div class="row contacts margin-top-25">
+                    {{ .Content }}
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</section>
+
+{{ end }}

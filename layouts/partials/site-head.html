@@ -1,0 +1,78 @@
+{{ hugo.Generator }}
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>{{ block "title" . }}{{ if not .IsHome }}{{ .Title }} | {{ site.Title }}{{ else }}{{ site.Title }}{{ end }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with site.Params.seo.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+
+<!-- Keywords
+    Der Meta-Tag für Keywords wird nicht mehr empfohlen
+    https://github.com/joshbuchea/HEAD
+    https://github.com/jekyll/jekyll-seo-tag
+-->
+
+{{ partial "meta/mobile" . }}
+{{ partial "meta/prefetch" . }}
+{{ partial "meta/robots" . }}
+{{ partial "meta/name-author" . }}
+
+<!-- Environment -->
+{{ if (eq (getenv "HUGO_ENV") "production") | (eq (getenv "HUGO_ENV") "stage") }}
+{{ template "_internal/opengraph.html" . }}
+{{ partial "meta/twittercard" . }}
+{{ partial "meta/schema" . }}
+{{ partial "meta/ie" . }}
+<link href="https://plus.google.com/{{ site.Params.social.googleplus }}" rel="publisher">
+{{ range .Params.categories }}
+<meta property="article:section" content="{{ . }}" />{{ end }}
+{{ if isset .Params "date" }}
+<meta property="article:published_time" content="{{ time .Date }}" />{{ end }}
+<meta name="icbm" content="{{ site.Params.geo.latitude }},{{ site.Params.geo.longitude }}">
+<meta name="geo.position" content="{{ site.Params.geo.latitude }};{{ site.Params.geo.longitude }}">
+
+{{ if eq .Kind "home" }}
+{{ partial "meta/site-verification" . }}
+{{ template "_internal/google_analytics_async.html" . }}
+{{ end }}
+
+<!-- Switch off Microsoft junk -->
+<meta name="MSSmartTagsPreventParsing" content="true">
+<meta http-equiv="imagetoolbar" content="no">
+{{ end }}
+
+<!-- Language -->
+<meta name="content-language" content="{{ if isset .Params "language" }}{{ .Params.language }}{{ else }}{{ site.LanguageCode }}{{ end }}">
+
+<!-- Icons -->
+<!-- https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<!-- Google Fonts -->
+<!-- https://stoned.io/web-development/hugo/How-To-Dynamically-Use-Google-Fonts-In-A-Hugo-Website/ -->
+<link href='//fonts.googleapis.com/css?family={{ site.Params.fontbody }}' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family={{ site.Params.fontheading }}' rel='stylesheet' type='text/css'>
+
+{{ if .RSSLink }}
+<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ site.Title }}" />
+{{ end }}
+
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{ with .Params.prev }}
+<link rel="prev" href="{{ . }}">
+{{ end }}
+
+{{ with .Params.next }}
+<link rel="next" href="{{ . }}">
+{{ end }}
+
+<!-- <link href="/css/main.css" type="text/css" rel="stylesheet" /> -->
+
+<!-- Inline Styles für Google Fonts -->
+{{/*<!-- {{ partial "google_fonts" . }} -->*/}}
+
+<!-- Generelles Styling für Bilder -->
+{{/*<!-- {{ partial "site-head-style" . }} -->*/}}

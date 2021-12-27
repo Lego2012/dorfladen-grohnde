@@ -1,0 +1,56 @@
+{{ define "title" }}
+{{ .Title }} &ndash; {{ site.Title }}
+{{ end }}
+
+
+{{ define "main" }}
+
+<!-- Secondary Banner Partial -->
+{{ partial "secondary-banner" . }}
+
+<section>
+    <div class="container">
+        <div class="row ueber-uns">
+
+            <!-- Panel 1 -->
+            <div class="col-lg-6 ueber-uns">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a href="/ueber-uns-detail/">
+                            <p class="panel-title">Über uns</p>
+                        </a>
+                    </div>
+                    <div class="panel-body">
+                        <a href="/ueber-uns-detail/">
+                            <img src="/images/schule/dorfladen_eingang_370x200.jpg" width="450" alt="Dorfladen Grohnde Schulgebäude">
+                        </a>
+                    </div>
+                    <div class="panel-footer">
+                        Schauen Sie mal in unseren Dorfladen hinein und lassen sich überraschen, wie vielfältig und ausgewogen unsere Produktpalette ist. Der Weg lohnt sich!
+                    </div>
+                </div>
+            </div>
+
+            <!-- Panel 2 -->
+            <div class="col-lg-6 ueber-uns">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a href="/dorfladen-ug/">
+                            <p class="panel-title">Die Dorfladen-UG</p>
+                        </a>
+                    </div>
+                    <div class="panel-body">
+                        <a href="/dorfladen-ug/">
+                            <img src="/images/gesellschaftervertrag.jpg" alt="Gesellschaftsvertrag">
+                        </a>
+                    </div>
+                    <div class="panel-footer">
+                        Erfahren Sie hier, was die Unternehmergesellschaft ausmacht und wie Sie mithelfen können, den Dorfladen in Grohnde auch in den nächsten Jahren erfolgreich zu machen.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+{{ end }}

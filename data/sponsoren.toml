@@ -1,0 +1,99 @@
+ueberschrift = "Wir bedanken uns bei unseren Sponsoren:"
+
+[[sponsor]]
+name     = "Otto Allerkamp"
+branche  = "Heizungs- und Lüftungsbaumeister"
+strasse  = "Hasenwinkel 6"
+ort      = "31860 Emmerthal"
+webseite = ""
+
+[[sponsor]]
+name     = "Sven Himme"
+branche  = "Malerfachbetrieb Gehrke UG"
+strasse  = "Schwarzer Weg 1"
+ort      = "31860 Emmerthal"
+webseite = ""
+
+[[sponsor]]
+name     = "Thomas Greve"
+branche  = "Fußbodenleger"
+strasse  = "An der Kleinbahn 22"
+ort      = "31860 Emmerthal"
+webseite = ""
+
+[[sponsor]]
+name     = "Klaus Hodes"
+branche  = "Tischlermeister"
+strasse  = "Südstr. 10"
+ort      = "31860 Emmerthal"
+webseite = ""
+
+[[sponsor]]
+name     = "Thomas Wegener"
+branche  = "mein Backhaus"
+strasse  = "Wilhelm-Lampe-Str. 6"
+ort      = "31860 Emmerthal"
+webseite = "http://www.baeckerei-wegener.de/"
+
+[[sponsor]]
+name     = "Matthias Knauer"
+branche  = "Pyrmonter Tiefbau GmbH"
+strasse  = "Lange Wand 32"
+ort      = "31812 Bad Pyrmont"
+webseite = "http://www.knauer-tiefbau.de"
+
+[[sponsor]]
+name     = "Leo Merkel"
+branche  = "confidea webdesign"
+strasse  = "Buchhorststr. 13"
+ort      = "31860 Emmerthal"
+webseite = "https://confidea.de/"
+
+[[sponsor]]
+name     = "Ernst Müller"
+branche  = "Kieswerk"
+strasse  = ""
+ort      = "37619 Bodenwerder"
+webseite = "http://www.kieswerk-mueller.de/"
+
+[[sponsor]]
+name     = "Norbert Feist"
+branche  = ""
+strasse  = ""
+ort      = "31860 Emmerthal"
+webseite = ""
+
+[[sponsor]]
+name     = "Volksbank Hameln-Stadthagen"
+branche  = ""
+strasse  = "Osterstr. 44"
+ort      = "31785 Hameln"
+webseite = "https://www.volksbank-hameln-stadthagen.de"
+
+[[sponsor]]
+name     = "Sparkasse Weserbergland"
+branche  = ""
+strasse  = "Am Markt 4"
+ort      = "31785 Hameln"
+webseite = "https://www.spkhw.de/"
+
+[[sponsor]]
+name     = "Marienhof Esperde"
+branche  = ""
+strasse  = "Kniepstraße 3"
+ort      = "31860 Emmerthal-Esperde"
+webseite = "http://www.marienhof-esperde.de/"
+
+[[sponsor]]
+name     = "Bauernhof Schütte"
+branche  = ""
+strasse  = "Palmshöhe 5"
+ort      = "37620 Halle (Weserbergland)"
+webseite = "http://www.bauernhof-schuette.de/"
+
+[[sponsor]]
+name     = "Wäscherei Nestroy"
+branche  = ""
+strasse  = "Reinerbecker Str. 13"
+ort      = "31855 Aerzen"
+webseite = "http://www.waescherei-nestroy.de/"

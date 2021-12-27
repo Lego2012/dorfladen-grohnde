@@ -1,0 +1,9 @@
+{{ if or (eq site.Params.env "production") (eq site.Params.env "stage") }}
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="{{ site.Params.social.twitter }}">
+<meta name="twitter:url" content="{{ .Permalink }}">
+<meta name="twitter:title" content="{{ .Title }}{{ if .IsHome }} - {{ site.Params.homepageTitle }}{{ else }} - {{ site.Title }}{{ end}}">
+<meta name="twitter:description" content="{{ if .IsHome }}{{ site.Params.seo.description }}{{ else }}{{ .Description }}{{ end }}" />
+<meta name="twitter:creator" content="{{ site.Params.social.twitter }}" />
+<meta name="twitter:image" content="{{ site.BaseURL }}downloads/{{ if isset .Params "og_image" }}{{ .Params.og_image }}{{ else}}confidea_Logo_Klammern_rot@0,25x.jpg{{ end }}">
+{{ end }}

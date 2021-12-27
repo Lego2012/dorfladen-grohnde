@@ -1,0 +1,50 @@
+{{ $box := site.Data.home_boxen.reihe1 }}
+
+<div class="row">
+
+    <!-- Reihe 1 links -->
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 margin-bottom-none">
+        <h4 class="text-center abstand margin-bottom-10 well">{{ $box.links.head | safeHTML }}</h4>
+        <div class="flip horizontal margin-bottom-30">
+            <div class="card">
+                <div class="face front"><img class="img-responsive" src="/images/eroeffnung/eroeffnung3.jpg" alt=""></div>
+                <div class="face back">
+                    <div class='hover_title'>Über uns</div>
+                    <a href="/ueber-uns"><i class="fa fa-link button_icon"></i></a>
+                </div>
+            </div>
+        </div>
+        <p>{{ $box.links.text | safeHTML }}</p>
+    </div>
+
+    <!-- Reihe 1 mitte -->
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 margin-bottom-none">
+        <h4 class="text-center abstand margin-bottom-10 well">{{ $box.mitte.head | safeHTML }}</h4>
+        <div class="flip margin-bottom-30">
+            <div class="card">
+                <div class="face front"><img class="img-responsive" src="/images/eroeffnung/eroeffnung1.jpg" alt="Bild von der Eröffnung"></div>
+                <div class="face back">
+                    <div class='hover_title'>Angebote</div>
+                    <a href="/angebote"><i class="fa fa-link button_icon"></i></a>
+                </div>
+            </div>
+        </div>
+        <p>{{ $box.mitte.text | safeHTML }}</p>
+    </div>
+
+    <!-- Reihe 1 rechts -->
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 margin-bottom-none">
+        <h4 class="text-center abstand margin-bottom-10 well">{{ $box.rechts.head | safeHTML }}</h4>
+        <div class="flip margin-bottom-30">
+            <div class="card">
+                <div class="face front"><img class="img-responsive" src="/images/eroeffnung/eroeffnung2.jpg" alt=""></div>
+                <div class="face back">
+                    <div class='hover_title'>Angebote</div>
+                    <a href="/angebote"><i class="fa fa-link button_icon"></i></a>
+                </div>
+            </div>
+        </div>
+        <p>{{ $box.rechts.text | safeHTML }}</p>
+    </div>
+
+</div>

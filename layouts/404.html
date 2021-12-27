@@ -1,0 +1,20 @@
+{{ define "title" }}
+{{ .Title }} &ndash; {{ site.Title }}
+{{ end }}
+
+
+{{ define "main" }}
+<main role="main">
+    <h1 class="entry-title" itemprop="headline">...aaand that's a broken link!</h1>
+    <span class="entry-meta"></span>
+    <section itemprop="entry-text">
+        <p>Technically it's called an <strong>HTTP Error 404</strong>.</p>
+        <p>The link you used does not point to anything. Please check it for any typing errors. If you think I have misplaced it, be a kind person and <a href="{{ site.BaseURL }}contact/">contact me</a> so I'll fix it. Thanks!</p>
+    </section>
+</main>
+{{ end }}
+
+
+{{ define "foot" }}
+<p>Verwendet wird für diese Seite das Layout <code>layouts/index.html</code>, das in das obere Layout integriert wird.</p>
+{{ end }}

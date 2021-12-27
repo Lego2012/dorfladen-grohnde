@@ -1,0 +1,101 @@
+<!-- Section Content -->
+<seticon class="content">
+    <div class="container">
+        <div class="inner-page about-us row">
+
+            <!-- Einkaufen -->
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 padding-left-none padding-bottom-40 xs-padding-left-none xs-padding-right-none">
+                <h3 class="margin-bottom-25">{{ .Page.Params.einkaufen.titel }}</h3>
+
+                {{ range .Page.Params.einkaufen.texte }}
+                <p>{{ . | safeHTML }}</p>
+                {{ end }}
+
+                <p><img class="alignleft margin-top-10 margin-bottom-20 margin-right-25 margin-left-none" src="/images/schule/dorfladen_eingang_370x200.jpg" alt="">{{ .Page.Params.einkaufen.text2 }}</p>
+            </div>
+
+            <!-- Worauf Sie sich freuen können -->
+            <div class="col-lg-4 col-md-4 col-sm-4 padding-right-none padding-bottom-40 xs-padding-left-none xs-padding-right-none">
+                <div class="right-container">
+                    <h3 class="margin-bottom-25">Worauf Sie sich freuen können:</h3>
+                    <div class="progressbar">
+                        <div class="bs-example">
+                            <div class="progress margin-bottom-15">
+                                <div class="progress-bar progress-bar-danger" data-width="100">Einkaufen</div>
+                            </div>
+                            <div class="progress margin-bottom-15">
+                                <div class="progress-bar progress-bar-danger" data-width="100">Der Metzger</div>
+                            </div>
+                            <div class="progress margin-bottom-15">
+                                <div class="progress-bar progress-bar-danger" data-width="100">Der Bäcker</div>
+                            </div>
+                            <div class="progress margin-bottom-15">
+                                <div class="progress-bar progress-bar-danger" data-width="100">Das Café</div>
+                            </div>
+                            <div class="progress margin-bottom-15">
+                                <div class="progress-bar progress-bar-danger" data-width="100">Leute treffen</div>
+                            </div>
+                            <div class="progress margin-bottom-15">
+                                <div class="progress-bar progress-bar-danger" data-width="100">Schöne Atmosphäre</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <hr class="sponsoren-hr">
+
+            <!-- Unsere Partner -->
+            <div class="col-lg-12 padding-left-none padding-bottom-40 xs-padding-left-none xs-padding-right-none">
+                <h3 class="margin-bottom-25">Unsere Partner:</h3>
+                <a href="http://www.christopher-marx-obstkelterei.sutterpages.de/" target="_blank"><img src="/images/Logos/marx.jpg" alt=""></a>
+                <a href="http://www.schulte-schmeckt.de/" target="_blank"><img src="/images/Logos/schulte.jpg" alt=""></a>
+                <a href="http://www.baeckerei-wegener.de/" target="_blank"><img src="/images/Logos/wegener.jpg" alt=""></a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <hr class="sponsoren-hr">
+
+            <!-- Danke an die Sponsoren -->
+            <div class="col-lg-12 padding-left-none padding-bottom-40 xs-padding-left-none xs-padding-right-none">
+                <div class="sponsoren">
+                    <h3 class="margin-bottom-25">{{ site.Data.sponsoren.ueberschrift }}</h3>
+
+                    {{ range site.Data.sponsoren.sponsor }}
+                    <p>{{ .name }} &middot; {{ with .branche }}{{ . }} &middot;{{ end}} {{ with .strasse }}{{ . }} &middot;{{ end }} {{ .ort }}{{ with .webseite }} &middot; <small><a href="{{ . }}" target="_blank"><strong>Zur Webseite</strong></a></small>{{ end }}</p>
+                    {{ end }}
+
+                </div>
+            </div>
+
+            <hr class="sponsoren-hr">
+
+            <div class="clearfix"></div>
+
+            <!-- Team -->
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-left-none padding-bottom-40 xs-padding-left-none xs-padding-right-none">
+                <h3 class="margin-bottom-25">Der Dorfladen feiert schon bald seinen dritten Geburtstag - und seinen 100.000 Kunden!</h3>
+                <img class="alignleft margin-top-10 margin-bottom-20 margin-right-25 margin-left-none" src="/images/ersatz-engel.JPG" alt="">
+                <p>Ein motiviertes Team hat dieses ehrgeizige Projekt zum Erfolg geführt und arbeitet weiter daran:</p>
+
+                <br>
+                {{ range .Page.Params.dorfladen.namen }}
+                <p class="text-center">{{ . }}</p>
+                {{ end }}
+                <br>
+
+                <p><strong>Sprechen Sie uns bitte an, sollte Ihnen etwas im Sortiment fehlen.</strong></p>
+                <br>
+                <p>Das Einkaufen bei uns ist übrigens nicht teurer, als in herkömmlichen Märkten. Probieren Sie es aus.</p>
+                <br>
+                <p>Und freuen Sie sich über die <strong>Benzin-Ersparnis</strong>, weil Sie nicht mehr so weit fahren müssen. 15 Kilometer weniger zum Einkaufen fahren sind in der Regel 1,5 - 2 Liter Benzin. Das entspricht im Durchschnitt ungefähr 2,50 - 3 €. Und bei vier Mal <strong>im Monat</strong> sind das schon <strong>10 € - 12 €</strong>.</p>
+                <br>
+                <p class="ph2">Wir freuen uns auf Ihren Besuch!</p>
+            </div>
+
+        </div>
+    </div>
+    </section>

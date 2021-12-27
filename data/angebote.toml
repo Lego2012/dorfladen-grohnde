@@ -1,0 +1,45 @@
+abspann = "Wir wünschen Ihnen eine schöne Woche"
+
+feiertage = "Das gesamte Schulte-Team bedankt sich für Ihr Vertrauen im Jahr 2021 und wünscht Ihnen Gesundheit, Glück und Zufriedenheit für 2022"
+
+[text]
+headline = "Empfehlungen Ihrer"
+subline1 = "Sylvesterfleischerei"
+subline2 = "Schulte Fleischerei & Partyservice"
+week     = "vom"
+
+[[angebote]]
+name         = "Hähnchenbrustfilet"
+beschreibung = "natürlich magere Spitzenqualität"
+preis        = "1,29"
+gewicht      = 100
+
+[[angebote]]
+name         = "Schweinerücken ohne Knochen frisch oder als Kasseler"
+beschreibung = "auch für Raclette und Fondue geeignet"
+preis        = "1,19"
+gewicht      = 100
+
+[[angebote]]
+name         = "Wiener Würstchen"
+beschreibung = "kalt und warm ein Genuss"
+preis        = "1,49"
+gewicht      = 100
+
+[[angebote]]
+name         = "Frische Bratwurst"
+beschreibung = "täglich frisch aus unserer Handwerksproduktion"
+preis        = "1,09"
+gewicht      = 100
+
+[[angebote]]
+name         = "Kochschinken"
+beschreibung = "heiß geräuchert und schonend gegart - natürlich handgewickelt"
+preis        = "2,59"
+gewicht      = 100
+
+[[angebote]]
+name         = "Heringssalat"
+beschreibung = "mit viel Fleischeinlage"
+preis        = "1,69"
+gewicht      = 100

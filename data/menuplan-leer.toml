@@ -1,0 +1,60 @@
+[[menu]]
+tag   = "Montag"
+datum = ".2021"
+
+[[menu.menu1]]
+name         = ""
+beschreibung = ""
+preis        = ""
+[[menu.menu2]]
+name         = ""
+beschreibung = ""
+preis        = ""
+
+[[menu]]
+tag   = "Dienstag"
+datum = ".2021"
+[[menu.menu1]]
+name         = ""
+beschreibung = ""
+preis        = ""
+[[menu.menu2]]
+name         = ""
+beschreibung = ""
+preis        = ""
+
+[[menu]]
+tag   = "Mittwoch"
+datum = ".2021"
+[[menu.menu1]]
+name         = ""
+beschreibung = ""
+preis        = ""
+[[menu.menu2]]
+name         = ""
+beschreibung = ""
+preis        = ""
+
+[[menu]]
+tag   = "Donnerstag"
+datum = ".2021"
+[[menu.menu1]]
+name         = ""
+beschreibung = ""
+preis        = ""
+[[menu.menu2]]
+name         = ""
+beschreibung = ""
+preis        = ""
+
+[[menu]]
+tag   = "Freitag"
+datum = ".2021"
+[[menu.menu1]]
+name         = ""
+beschreibung = ""
+preis        = ""
+[[menu.menu2]]
+name         = ""
+beschreibung = ""
+preis        = ""

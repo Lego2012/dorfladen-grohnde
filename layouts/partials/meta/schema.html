@@ -1,0 +1,55 @@
+{{ if .IsHome }}
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "{{ .Permalink }}",
+        "name": "{{ site.Title }}",
+        "author": {
+            "@type": "Person",
+            "name": "{{ site.Author }}"
+        },
+        "description": "{{ site.Params.description }}",
+    }
+</script>
+{{ end }}
+
+{{ if .IsPage }}
+<script type="application/ld+json">
+    {
+        {
+            if eq.Section "post"
+        }
+    } {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "{{ .Title }}",
+        "genre": "{{ range .Params.categories }}{{ . }}{{ end }}",
+        "url": "{{ .Permalink }}",
+        "datePublished": "{{ time .Date }}",
+        "description": "{{ if .Params.description }}{{ .Description }}{{ else }}{{ site.Params.description }}{{ end }}",
+        "author": {
+            "@type": "Person",
+            "name": "{{ if .Params.author }}{{ .Params.author }}{{ else }}{{ site.Author }}{{ end }}"
+        }
+    } {
+        {
+            else
+        }
+    } {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "{{ .Permalink }}",
+        "name": "{{ .Title }}",
+        "author": {
+            "@type": "Person",
+            "name": "{{ if .Params.author }}{{ .Params.author }}{{ else }}{{ site.Author }}{{ end }}"
+        },
+        "description": "{{ if .Params.description }}{{ .Description }}{{ else }}{{ site.Params.description }}{{ end }}",
+    } {
+        {
+            end
+        }
+    }
+</script>
+{{ end }}

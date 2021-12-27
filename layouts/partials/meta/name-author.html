@@ -1,0 +1,6 @@
+<!-- Undocumented Facebook feature parses author name for social sharing -->
+{{ if .Params.author }}
+<meta name="author" content="{{ .Params.author }}">
+{{ else }}
+<meta name="author" content="{{ site.Author }}">
+{{ end }}
