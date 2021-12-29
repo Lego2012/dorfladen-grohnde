@@ -1,6 +1,6 @@
 [[menu]]
 tag   = "Montag"
-datum = ".2021"
+#datum = ".2022"
 
 [[menu.menu1]]
 name         = ""
@@ -13,7 +13,7 @@ preis        = ""
 
 [[menu]]
 tag   = "Dienstag"
-datum = ".2021"
+datum = ".2022"
 [[menu.menu1]]
 name         = ""
 beschreibung = ""
@@ -25,7 +25,7 @@ preis        = ""
 
 [[menu]]
 tag   = "Mittwoch"
-datum = ".2021"
+datum = ".2022"
 [[menu.menu1]]
 name         = ""
 beschreibung = ""
@@ -37,7 +37,7 @@ preis        = ""
 
 [[menu]]
 tag   = "Donnerstag"
-datum = ".2021"
+datum = ".2022"
 [[menu.menu1]]
 name         = ""
 beschreibung = ""
@@ -49,7 +49,7 @@ preis        = ""
 
 [[menu]]
 tag   = "Freitag"
-datum = ".2021"
+datum = ".2022"
 [[menu.menu1]]
 name         = ""
 beschreibung = ""

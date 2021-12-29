@@ -1,32 +1,60 @@
 [[menu]]
 tag   = "Montag"
-datum = "27.12.2021"
+datum = "3.1.2022"
 
 [[menu.menu1]]
-name         = "Winterzeitfilet"
-beschreibung = "mit Sauce, Gemüse und Salzkartoffeln"
+name         = "Kasseler Braten"
+beschreibung = "mit Sauce, Sauerkraut und Salzkartoffeln"
+preis        = "6,50"
+[[menu.menu2]]
+name         = "Putenmedaillon"
+beschreibung = "mit Rahmsauce, Spätzle und Salat"
 preis        = "6,50"
 
 [[menu]]
 tag   = "Dienstag"
-datum = "28.12.2021"
+datum = "4.1.2022"
 [[menu.menu1]]
-name         = "Schnitzel"
-beschreibung = "mit Jägersauce, Gemüse und Schwenkkartoffeln"
+name         = "Kohlroulade"
+beschreibung = "mit pikanter Sauce und Salzkartoffeln"
+preis        = "6,50"
+[[menu.menu2]]
+name         = "Hähnchengeschnetzeltes Toskana"
+beschreibung = "mit Nudeln"
 preis        = "6,50"
 
 [[menu]]
 tag   = "Mittwoch"
-datum = "29.12.2021"
+datum = "5.1.2022"
 [[menu.menu1]]
-name         = "Alaska Seelachsfilet, paniert"
-beschreibung = "dazu Kartoffelsalat"
+name         = "Fischfilet"
+beschreibung = "mit Sauce, Gemüse und Reis"
+preis        = "6,50"
+[[menu.menu2]]
+name         = "Frische Bratwurst"
+beschreibung = "mit Sahne – Sauerkraut und Kartoffelpüree"
 preis        = "6,50"
 
 [[menu]]
 tag   = "Donnerstag"
-datum = "30.12.2021"
+datum = "6.1.2022"
 [[menu.menu1]]
-name         = "Grünkohl"
-beschreibung = "mit Kohlwurst und Salzkartoffeln"
+name         = "Chili con Carne"
+beschreibung = "mit Baguette, dazu ein Dessert"
+preis        = "5,00"
+[[menu.menu2]]
+name         = "Adventsbraten"
+beschreibung = "mit Sauce, Gemüse und Salzkartoffeln"
+preis        = "6,50"
+
+[[menu]]
+tag   = "Freitag"
+datum = "7.1.2022"
+[[menu.menu1]]
+name         = "Kotelett"
+beschreibung = "mit Sauce, Gemüse und Salzkartoffeln"
+preis        = "6,50"
+[[menu.menu2]]
+name         = "Schulte ́s Nudelauflauf"
+beschreibung = ""
 preis        = "6,50"
