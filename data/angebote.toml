@@ -1,45 +1,46 @@
 abspann = "Wir wünschen Ihnen eine schöne Woche"
 
-feiertage = "Das gesamte Schulte-Team bedankt sich für Ihr Vertrauen im Jahr 2021 und wünscht Ihnen Gesundheit, Glück und Zufriedenheit für 2022"
+feiertage = ""
 
 [text]
-headline = "Empfehlungen Ihrer"
-subline1 = "Sylvesterfleischerei"
-subline2 = "Schulte Fleischerei & Partyservice"
+headline = "Angebote zum Jahresbeginn"
+subline1 = "Schulte Fleischerei & Partyservice"
+subline2 = ""
 week     = "vom"
 
 [[angebote]]
-name         = "Hähnchenbrustfilet"
-beschreibung = "natürlich magere Spitzenqualität"
+name         = "Kasseler Nacken ohne Knochen"
+beschreibung = "immer ein Genuss"
+preis        = "0,99"
+gewicht      = 100
+
+[[angebote]]
+name         = "Bregenwurst zum Kochen"
+beschreibung = "alle Jahre wieder - Schultes leckere Kohlwurst"
+preis        = "1,39"
+gewicht      = 100
+
+[[angebote]]
+name         = "Grünkohl"
+beschreibung = "aus unserer Partyserviceküche"
+preis        = "0,75"
+gewicht      = 100
+
+[[angebote]]
+name         = "Putenschnitzel"
+beschreibung = "ausgesucht magere Spitzenqualität"
 preis        = "1,29"
 gewicht      = 100
 
 [[angebote]]
-name         = "Schweinerücken ohne Knochen frisch oder als Kasseler"
-beschreibung = "auch für Raclette und Fondue geeignet"
-preis        = "1,19"
+name         = "Lachsschinken, mild geräuchert"
+beschreibung = "gereifte Schinkenspezialität aus dem mageren Schweinelachs"
+preis        = "2,69"
 gewicht      = 100
 
-[[angebote]]
-name         = "Wiener Würstchen"
-beschreibung = "kalt und warm ein Genuss"
-preis        = "1,49"
-gewicht      = 100
-
-[[angebote]]
-name         = "Frische Bratwurst"
-beschreibung = "täglich frisch aus unserer Handwerksproduktion"
-preis        = "1,09"
-gewicht      = 100
-
-[[angebote]]
-name         = "Kochschinken"
-beschreibung = "heiß geräuchert und schonend gegart - natürlich handgewickelt"
-preis        = "2,59"
-gewicht      = 100
-
-[[angebote]]
-name         = "Heringssalat"
-beschreibung = "mit viel Fleischeinlage"
-preis        = "1,69"
-gewicht      = 100
+[tuete]
+titel   = "Schulte's Spartüte (immer ab mittwochs)"
+name1   = "1 Schlauch Linsensuppe"
+name2   = "2 Rauchenden"
+einheit = "Tüte"
+preis   = "4,50"
