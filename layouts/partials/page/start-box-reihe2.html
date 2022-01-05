@@ -3,7 +3,7 @@
 <div class="row">
 
     <!-- Reihe 2 links -->
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 margin-bottom-none">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 margin-bottom-none">
         <h4 class="text-center abstand margin-bottom-10 well">{{ $box.links.head |safeHTML }}</h4>
         <div class="flip margin-bottom-30">
             <div class="card">
@@ -20,7 +20,7 @@
     </div>
 
     <!-- Reihe 2 mitte -->
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 margin-bottom-none">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 margin-bottom-none">
         <h4 class="text-center abstand margin-bottom-10 well">{{ $box.mitte.head |safeHTML }}</h4>
         <div class="flip horizontal margin-bottom-30">
             <div class="card">
@@ -34,24 +34,6 @@
             </div>
         </div>
         <p class="margin-bottom-none">{{ $box.mitte.text |safeHTML }}</p>
-    </div>
-
-    <!-- Reihe 2 rechts -->
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 margin-bottom-none">
-        <h4 class="text-center abstand margin-bottom-10 well">{{ $box.rechts.head |safeHTML }}</h4>
-        <div class="flip margin-bottom-30">
-            <div class="card">
-                <div class="face front">
-                    <img class="img-responsive" src="/images/metzger/pork-523102-370x200.jpg" alt="">
-                </div>
-                <div class="face back">
-                    <div class='hover_title'>Webseite Schulte</div>
-                    <a href="http://www.schulte-schmeckt.de/" target="_blank"><i class="fa fa-link button_icon"></i></a>
-                </div>
-            </div>
-        </div>
-        <p class="margin-bottom-none">{{ $box.rechts.text |safeHTML }}</p>
-        <p><strong>{{ $box.rechts.subtext |safeHTML }}</strong></p>
     </div>
 
 </div>

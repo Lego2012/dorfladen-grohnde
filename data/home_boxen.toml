@@ -13,14 +13,9 @@
 
 [reihe2]
   [reihe2.links]
-  head = "Das Schulgebäude in<br>Grohnde"
+  head = "Das Schulgebäude in Grohnde"
   text = "Jetzt erstrahlt das Schulgebäude in neuem Glanz und wird zu einem interessanten und lebhaften Kommunikationszentrum in Grohnde. Ach ja, und so ganz nebenbei können Sie bei uns auch <a href=\"/angebote\">einkaufen</a>."
 
   [reihe2.mitte]
   head = "Unser Bäcker Wegener wartet auf Sie"
   text = "Immer frisches Brot und frische Brötchen von einem der besten Bäcker? Kein Problem. Wenn Sie Frühausteher sind, bekommen Sie die <strong>Brötchen am Sonntag bereits ab 7.30 Uhr</strong>."
-
-  [reihe2.rechts]
-  head = "Gleich nebenan = Schulte Fleischerei & Catering"
-  text = "Immer frisches Fleisch und frische Wurst von einem der besten Schlachter!"
-  subtext = "Die aktuellen Angebote finden Sie immer auf der <a href=\"/angebote#schulte\">Angebotsseite</a>"
