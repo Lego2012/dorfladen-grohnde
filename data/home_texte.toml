@@ -1,6 +1,9 @@
 startseite = [
-    "<strong>Aus Liebe zum Menschen ... kauf einfach eine Packung mehr</strong><br>Der DRK-Ortsverband  unterstützt damit \"Aktion Mensch\" bei der Hilfe für bedürftige Menschen.<br><strong>Der Sammelzeitraum ist vom 8. Januar bis 19. Januar 2022</strong><br>Gesammelt werden haltbare Lebensmittel und Hygieneartikel. Die Spenden werden in einer Kiste im Dorfladen gesammelt.<br><br>Die erhaltenen Spenden werden über den DRK-Kreisverband Weserbergland an bedürftige Menschen verteilt.",
   "<strong>Corona Krise</strong><br>Damit der Corona-Virus nicht auch Grohnde erreicht, haben wir einige Vorkehrungsmaßnahmen getroffen.<br>Dafür bitten wir um Ihr Verständnis.<br><br>Um ein Ausbreiten zu erschweren, werden wir unseren Bringdienst bis auf weiteres auf die Zustellung Donnerstags umstellen. Bitte melden Sie sich im Dorfladen (Tel. 2819310)",
+  "Auch wenn Sie sich als ehrenamtlicher Mitarbeiter an dem Bringdienst beteiligen möchten, melden Sie sich im Dorfladen!",
+  # "Nutzen Sie <strong>jeden Donnerstag</strong> unseren kostenlosen Bringdienst!",
+  "Freies <strong>WLAN</strong> im Dorfladen!",
+  "Auf unsere Annahmestelle für die Reinigung Ihrer Kleider möchten wir hinweisen."
 ]
 
 kontakt = [
