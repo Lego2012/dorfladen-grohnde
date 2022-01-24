@@ -4,7 +4,6 @@
     "public": true,
     ".gitignore": true,
     ".hugo_build.lock": true,
-    ".prettierrc.json": true,
     "i18n": true,
     ".vscode": true,
     "archetypes": true,
