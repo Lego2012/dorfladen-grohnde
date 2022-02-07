@@ -5,7 +5,7 @@ description = "Die neuen Angebote vom Dorfladen in Grohnde und vom Metzger Schul
 [dorfladen]
     vorhanden  = "ja"
     # zeitraum   = ""
-    kw         = "04-05"
+    kw         = "06-07"
 +++
 
 {{< secondary-banner titel="Unsere Angebote" untertitel="Regelmäßig frisch für Sie" >}}
