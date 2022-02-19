@@ -1,20 +1,20 @@
 {{ define "title" }}
-<h1>{{ .Title }}</h1>
+  <h1>{{ .Title }}</h1>
 {{ end }}
-
 
 {{ define "main" }}
-<h2>Dies ist die Seite: {{ .Title }}</h2>
-<ul>
+  <h2>Dies ist die Seite: {{ .Title }}</h2>
+  <ul>
     {{ range .Data.Pages }}
-    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
     {{ end }}
-</ul>
+  </ul>
 {{ end }}
 
-
 {{ define "foot" }}
-<hr>
+  <hr>
 
-<p>Dies ist das Layout <code>layouts/_default/list.html</code>, das in das obere Layout integriert wird</p>
+  <p>Dies ist das Layout <code>layouts/_default/list.html</code>, das in das obere Layout integriert wird</p>
 {{ end }}
